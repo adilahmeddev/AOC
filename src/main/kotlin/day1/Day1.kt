@@ -1,8 +1,10 @@
+package day1
+
 import java.io.InputStream
 import java.io.OutputStream
 import java.lang.StringBuilder
 
-public fun Day1(inp: InputStream, out: OutputStream) {
+fun Day1(inp: InputStream, out: OutputStream) {
     val input = generateSequence(::readLine)
     val lines = input.toList()
 
